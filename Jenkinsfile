@@ -17,6 +17,7 @@ pipeline {
             }
             steps {
                 sh '''
+                    echo 'Small change to test SCM Polling'
                     ls -la
                     node --version
                     npm --version
