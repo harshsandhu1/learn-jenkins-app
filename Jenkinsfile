@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NETLIFY_SITE_ID = '03d4042d-476c-4668-9ce8-34352dad73e4'
+        NETLIFY_SITE_ID = '2b911892-e83b-4d37-817c-fffae9183391'
         NETLIFY_AUTH_TOKEN = credentials('netlify-token')
     }
 
@@ -130,7 +130,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'https://peaceful-daffodil-303af5.netlify.app'
+                CI_ENVIRONMENT_URL = 'https://spiffy-caramel-808417.netlify.app'
             }
 
             steps {
