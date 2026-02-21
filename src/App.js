@@ -16,7 +16,7 @@ function App() {
         </a>
       </header>
       <p>
-          Application version: (process.env.REACT_APP_VERSION) - This is a sample React application to demonstrate Jenkins CI/CD pipeline.
+          Application version: {process.env.REACT_APP_VERSION} - This is a sample React application to demonstrate Jenkins CI/CD pipeline.
       </p>
     </div>
   );
